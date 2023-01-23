@@ -1,0 +1,26 @@
+@import url("asset/css/header.css");
+/* section */
+@import url("asset/css/section.css");
+/* menu */
+@import url("asset/css/menu.css");
+/* suite */
+@import url("asset/css/suite.css");
+/* carre */
+@import url("asset/css/carre.css");
+/* fin */
+@import url("asset/css/fin.css");
+/* princing */
+@import url("asset/css/pricing.css");
+/* prix */
+@import url("asset/css/prix.css");
+/* perso */
+@import url("asset/css/perso.css");
+body {
+    background-image: url("asset/img/eclipsehaut.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 ;
+    font-family: "Roboto";
+}
+
+

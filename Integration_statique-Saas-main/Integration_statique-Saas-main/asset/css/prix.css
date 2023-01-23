@@ -1,0 +1,113 @@
+.prix ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.prix{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 10px;
+    align-items: stretch;
+    height: auto;
+}
+
+.prix li {
+    list-style-image: none;
+    list-style-type: none;
+    color:#343434;
+    text-decoration: none;   
+    border: solid;
+    border-color:#b9b9b9 ;
+    border-radius: 15px;
+    padding: 33px 33px;
+    height: 100%;
+}
+
+.prix h1{
+    color: #0C0047;
+    text-align: center;
+    height: auto;
+}
+
+
+
+.prix p{
+    text-align: center;
+    color: #969696;
+    font-style: normal;
+    font-size: x-small;
+    height: 100%;
+    
+}
+
+.dollar{
+    color: #0C0047;
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.selectplan{
+    border: solid;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    border-color: #00218F;
+    text-align: center;
+    border-radius: 7px;
+    padding:5px 100px;
+    background-color: #00218F;
+    color:#fff;
+}
+
+.large{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.point{
+    display: block;
+}
+
+.large p{
+    font-size: small;
+    color: #0C0047;
+}
+
+.large2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.point{
+    display: block;
+}
+
+.large2 p{
+    font-size: small;
+    color: #0C0047;
+
+}
+
+.raye{
+    text-decoration : line-through;
+}
+
+.selectplan:hover{
+    background-color: #fff;
+    color: #00218F;
+    border-color: #fff;
+
+
+}
+
+.prix li:hover{
+    background-color: #00218F;
+}
+

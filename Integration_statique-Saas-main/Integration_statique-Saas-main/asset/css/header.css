@@ -1,0 +1,90 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+}
+.ground{
+    display: flex;
+    align-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+ul{
+    height: 100%;
+    margin:0;
+    padding: 0;
+    display :flex;
+    justify-content: space-evenly;
+}
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a, .menu ul li a:visited{
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+
+}
+
+.menu ul li a:hover {
+    color: #cdcd22 ;
+}   
+
+.menu2{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.menu2 a,.menu a:visited{
+    padding: 20px 40px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border: solid;
+    border-color: #fff;
+    border-radius: 15px;
+}
+.login {
+    margin-right: 10px;
+}
+
+.menu2 a.Connect {
+    background-color: #fff;
+    color: #00218F;
+}
+
+
+@media screen and (max-width: 1044px){
+    .menu{
+        order: 1;
+        justify-content: center;
+    }
+    .menu ul{
+        flex-wrap: wrap ;
+    }
+    
+
+
+
+}
+
+@media screen and (max-width:600px){
+    .menu2{
+        padding-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .menu ul{
+        padding-top: 30px;
+    }
+    
+}
+
+
+
+
+    

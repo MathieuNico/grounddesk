@@ -1,0 +1,17 @@
+.pricing{
+    padding-top: 140px;
+}
+
+.pricing h1{
+    text-align: center;
+    color: #0C0047;
+    font-size: 50px;
+}
+
+.pricing p{
+    text-align: center;
+    color: #969696;
+    font-style: normal;
+    font-size: x-small
+
+}

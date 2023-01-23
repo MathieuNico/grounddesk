@@ -1,0 +1,36 @@
+.prems{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.prems h2{
+    color: #0C0047;
+}
+
+.tweet{
+    display: flex;
+}
+
+.part1{
+    display: flex;
+}
+
+.petit1 p{
+    display: block;
+    color: #969696;
+    font-size: x-small;
+}
+
+.petit1{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.twe1{
+    border: solid;
+    border-color:#b9b9b9 ;
+    border-radius: 10px;
+    display: block;
+}
+

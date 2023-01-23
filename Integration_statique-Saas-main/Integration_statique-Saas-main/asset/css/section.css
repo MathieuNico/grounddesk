@@ -1,0 +1,66 @@
+.business{
+    color: #37E2D5;
+}
+section{
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px 50px;
+}
+
+.text1{ 
+    color: #fff;
+    font-size: 60px;
+    max-width: 844px;
+    margin: 0 auto;
+}
+
+.text2{
+    margin-top: 30px;
+    color: #fff;
+    font-style: normal;
+}
+
+.text3{
+    margin-top: 60px;
+}
+
+.text3 a,.text3 a:visited {
+    padding: 20px 40px;
+    color: #fff;
+    text-decoration: none;
+    display:inline;
+    border: solid;
+    border-color: #fff;
+    border-radius: 15px;
+}
+.text3 a.text_1 {
+    background-color: #fff;
+    color: #00218F;
+}
+
+.text_2 {
+    margin-right: 10px;
+}
+
+.text3 a.atext_1 {
+    background-color: #fff;
+    color: #00218F;
+}
+
+.dashboard{
+    margin-top: 40px;
+    display: flex;
+    align-content: center;
+}
+
+.dash1{
+    height: 100%;
+    margin-right: -105px;
+    
+}
+
+
+.dash2{
+    height: 100%;
+
+}

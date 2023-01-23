@@ -1,0 +1,10 @@
+.menusponso a{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.menusponso ul {
+    list-style-type: none;
+}
