@@ -10,10 +10,14 @@
 
 .tweet{
     display: flex;
+    gap: 20px;
 }
 
 .part1{
     display: flex;
+}
+.part1 a{
+    text-align: left;
 }
 
 .petit1 p{
@@ -32,5 +36,10 @@
     border-color:#b9b9b9 ;
     border-radius: 10px;
     display: block;
+    padding: 30px 30px;
+}
+.tweet p{
+    color: #969696;
+    text-align: left;
 }
 

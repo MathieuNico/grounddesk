@@ -1,0 +1,21 @@
+#business1 ul{
+    list-style-type: none;
+    display: block;
+
+}
+#business1 {
+    display: none;
+    text-align: center;
+    color: aqua;
+}
+
+.grandjs{
+    display: block;
+}
+
+#business1 a{
+    font-size: larger;
+    text-decoration: none;
+    color: aqua;
+}
+

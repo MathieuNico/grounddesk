@@ -1,4 +1,5 @@
 .pricing{
+    text-align: center;
     padding-top: 140px;
 }
 
@@ -14,4 +15,19 @@
     font-style: normal;
     font-size: x-small
 
+}
+
+.annuel {
+    display: inline-block;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #969696;
+    border-radius: 20px;
+
+}
+
+#boutn{
+    display: block;
+    text-align: left;
+    color: black;
 }
