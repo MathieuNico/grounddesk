@@ -70,5 +70,39 @@ function changement(chan1,chan2,chan3,buton) {
     }
 }
 
+// PARTIE 3
+
+const flechedroite = document.querySelector("#flechedr")
+const bloc = document.querySelector("#twe1")
+const bloc2 = document.querySelector("#twe2")
+const bloc3 = document.querySelector("#twe3")
+const cache = document.querySelector("#bloccache")
+const cache2 = document.querySelector("#bloccache2")
+const cache3 = document.querySelector("#bloccache3")
+flechedroite.addEventListener("click",function(event) {
+    event.preventDefault();
+    changement_perso(bloc,bloc2,bloc3,cache,cache2,cache3);
+})
+
+
+function changement_perso(bloc,bloc2,bloc3,cache,cache2,cache3) {
+    if (bloc.style.display == "block") {
+        bloc.style.display = "none"
+        bloc2.style.display = "none"
+        bloc3.style.display = "none"
+        cache.style.display = "block"
+        cache2.style.display = "block"
+        cache3.style.display = "block"
+    } else {
+        bloc.style.display = "block"
+        bloc2.style.display = "block"
+        bloc3.style.display = "block"
+        cache.style.display = "none"
+        cache2.style.display = "none"
+        cache3.style.display = "none"
+
+    }
+}
+
 
 

@@ -31,11 +31,46 @@
     margin-left: 20px;
 }
 
-.twe1{
+#twe1{
     border: solid;
     border-color:#b9b9b9 ;
     border-radius: 10px;
     display: block;
+    padding: 30px 30px;
+}
+#twe2{
+    border: solid;
+    border-color:#b9b9b9 ;
+    border-radius: 10px;
+    display: block;
+    padding: 30px 30px;
+}
+#twe3{
+    border: solid;
+    border-color:#b9b9b9 ;
+    border-radius: 10px;
+    display: block;
+    padding: 30px 30px;
+}
+#bloccache{
+    border: solid;
+    border-color:#b9b9b9 ;
+    border-radius: 10px;
+    display: none;
+    padding: 30px 30px;
+}
+#bloccache2{
+    border: solid;
+    border-color:#b9b9b9 ;
+    border-radius: 10px;
+    display: none;
+    padding: 30px 30px;
+}
+#bloccache3{
+    border: solid;
+    border-color:#b9b9b9 ;
+    border-radius: 10px;
+    display: none;
     padding: 30px 30px;
 }
 .tweet p{
